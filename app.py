@@ -14,7 +14,7 @@ from pathlib import Path
 
 # MongoDB connection
 def connect_to_mongodb():
-    client = MongoClient("mongodb+srv://anner:hello1234@cluster0.wv8lo.mongodb.net/")
+    client = MongoClient("MongoDBCluster")
     db = client["sql_schemas"]
     return db
 
